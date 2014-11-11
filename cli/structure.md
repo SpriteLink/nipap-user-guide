@@ -2,7 +2,7 @@ CLI argument structure
 ======================
 Don't let the title intimidate you. This is really about the basics of using the NIPAP CLI.
 
-All commands in the CLI follow a logical pattern. For example;
+All commands in the CLI follow a logical pattern. Let's look at a few example commands;
 ```
 nipap address list FOO
 nipap address view 192.0.2.0/24
@@ -15,7 +15,7 @@ If you try to enter any of the above commands you might also notice that the NIP
 ```
 user@host $ nipap pool <tab><tab>
 add list modify remove resize view
-user@host $ nipap pool 
+user@host $ nipap pool
 ```
 
 You will see that the command structure is very similar across different types of objects and once you get to know it you will feel quite at home.
