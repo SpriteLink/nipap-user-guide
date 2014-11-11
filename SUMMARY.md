@@ -19,7 +19,7 @@
        * [Modifying a pool](cli/modifying_a_pool.md)
        * [Removing a pool](cli/removing_a_pool.md)
    * [VRFs](cli/vrfs.md)
-       * [Adding a VRF](cli/add_a_vrf.md)
+       * [Adding a VRF](cli/adding_a_vrf.md)
        * [Viewing a VRF](cli/viewing_a_vrf.md)
        * [Searching for VRFs](cli/searching_for_vrfs)
        * [Modifying a VRF](cli/modifying_a_vrf.md)
