@@ -17,11 +17,11 @@
        * [View a pool](cli/view_a_pool.md)
        * [Search for pools](cli/search_for_pools.md)
        * [Modify a pool](cli/modify_a_pool.md)
-       * [Remove a pool](cli/removing_a_pool.md)
+       * [Remove a pool](cli/remov_a_pool.md)
    * [VRFs](cli/vrfs.md)
        * [Add a VRF](cli/add_a_vrf.md)
        * [View a VRF](cli/view_a_vrf.md)
-       * [Search for VRFs](cli/searching_for_vrfs)
+       * [Search for VRFs](cli/search_for_vrfs.md)
        * [Modify a VRF](cli/modify_a_vrf.md)
        * [Remove a VRF](cli/remove_a_vrf.md)
 
