@@ -22,3 +22,19 @@ user@host $ nipap address add from-pool link-networks family ipv4 type assignmen
 Network 1.3.3.22/31 added to VRF 'default' [RT: -]: This was added from a pool
 user@host $
 ```
+
+## Examples
+
+### dual-stack allocation
+When adding from a pool it is possible to get both an IPv4 and IPv6 prefix at the same time. Use the same syntax as for adding a single prefix but instead of specifying family 4 or 6, you specify family dual-stack:
+```
+user@host $ nipap address add from-pool link-networks family dual-stack type assignment description "This was added from a pool"
+Network 1.3.3.22/31 added to VRF 'default' [RT: -]: This was added from a pool
+Network 2001:db8::14/64 added to VRF 'default' [RT: -]: This was added from a pool
+user@host $
+```
+When using dual-stack it is not possible to manually specify the prefix length. The pool's default prefix length for respective address family will be used.
+
+Also note that using family dual-stack does not result in one atomic operation - there are two requests to the backend. This means that if one request fails, for example due to shortage of addresses, the other one might succeed. It is up to the user to handle this.  
+
+
