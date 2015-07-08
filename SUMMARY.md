@@ -15,7 +15,7 @@
    * [Pools](cli/pools.md)
        * [Add a pool](cli/add_a_pool.md)
        * [View a pool](cli/view_a_pool.md)
-       * [Search for pools](cli/search_for_pools.md)
+       * [List pools](cli/list_pools.md)
        * [Modify a pool](cli/modify_a_pool.md)
        * [Remove a pool](cli/remove_a_pool.md)
        * [Resizing a pool](cli/resize_a_pool.md)
