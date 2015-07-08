@@ -1,6 +1,6 @@
-# Search for addresses
+# List prefixes or addresses
 
-You can't really search, but you can list with the cli:
+You can list with the cli:
 
 ```
 user@host $ nipap address list

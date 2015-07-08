@@ -9,7 +9,7 @@
    * [Addresses](cli/addresses.md)
        * [Add a prefix](cli/add_a_prefix.md)
        * [View a prefix](cli/view_a_prefix.md)
-       * [Search for prefixes](cli/search_for_prefixes.md)
+       * [List prefixes](cli/list_prefixes.md)
        * [Modify a prefix](cli/modify_a_prefix.md)
        * [Remove a prefix](cli/remove_a_prefix.md)
    * [Pools](cli/pools.md)
