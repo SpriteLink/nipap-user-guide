@@ -8,12 +8,12 @@ user@host $ nipap pool view test-linknets
   Description                : Link networks for my test network
   Default type               : assignment
   Implied VRF RT / name      : None / default
-  Preflen (v4/v6)            : 30 / 48
+  Preflen (v4/v6)            : 30 / 112
 -- Extra Attributes
 -- Tags
 -- Statistics
   IPv4 prefixes Used / Free  : 2 / 61 (3.17% of 63)
-  IPv6 prefixes Used / Free  : 1.0000e+00 / 1.0000e+00 (50.00% of 2.0000e+00)
+  IPv6 prefixes Used / Free  : 1.0000e+00 / 1.8447e+19 (0.00% of 1.8447e+19)
   IPv4 addresses Used / Free : 12 / 244 (4.69% of 256)
   IPv6 addresses Used / Free : 6.5536e+04 / 1.2089e+24 (0.00% of 1.2089e+24)
 
