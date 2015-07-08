@@ -13,10 +13,7 @@ user@host $
 
 You are now able to request prefixes from this pool.
 
-You can remove a pool with the following command. Removing a pool will not
-delete any prefixes, neither those that were members of the pool or prefixes
-that were allocated from the pool. Obviously, member prefixes will be
-disassociated from the pool though.
+You can disassociate a single prefix from a pool with the following command. The prefix will continue to exist.
 ```
 user@host $ nipap pool resize test-linknets remove 192.0.2.0/24
 Prefix 192.0.2.0/24 removed from pool 'test-linknets'.
