@@ -11,10 +11,10 @@ the following command:
 
 This allows us to make assignments from this pool automatically.
 
-If one requests a prefix from this group, one will get:
+If you request a prefix from this group you will get:
 
-* it is of a type 'assignment'
-* an ipv4 you get a /30
-* an ipv6 you receive a /112
+* a prefix with the type 'assignment'
+* a /30 if you requested v4 space
+* a /112 if you requested v6 space
 
 
