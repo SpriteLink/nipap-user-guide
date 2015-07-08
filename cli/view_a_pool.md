@@ -2,7 +2,7 @@
 To display all information on a pool:
 ```
 user@host $ nipap pool view servers
--- Pool 
+-- Pool
   ID                         : 15
   Name                       : test-linknets
   Description                : Link networks for my test network

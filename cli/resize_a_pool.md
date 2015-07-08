@@ -1,26 +1,25 @@
 # Resizing a pool, or adding/removing prefixes to the pool
-To grow or shrink a poo, you need to add prefixes to it.
+Grow or shrink a pool by adding or removing prefixes to/from it.
 
-The type for the range to add depends on the pools' return-type: If
-the pool should return assignments, you need to add a reservation prefix
-to the pool; if the pool returns hosts, you need to add either a reservation or assignment to the pool.
+Please note that you should not mix the types of the member prefixes of a pool.
+For example, if the pools' default-type is host you should add prefixes of type
+assignment to the pool.
 
 ```
 user@host $ nipap pool resize test-linknets add 192.0.2.0/24
 Prefix 192.0.2.0/24 in VRF 'None' [RT: all] added to pool 'test-linknets'.
-
 user@host $
 ```
 
 You are now able to request prefixes from this pool.
 
-If you are unsatisfied with a certain prefix being a member of test-linknets
-you can dismember it again with the following command:
-
+You can remove a pool with the following command. Removing a pool will not
+delete any prefixes, neither those that were members of the pool or prefixes
+that were allocated from the pool. Obviously, member prefixes will be
+disassociated from the pool though.
 ```
 user@host $ nipap pool resize test-linknets remove 192.0.2.0/24
 Prefix 192.0.2.0/24 removed from pool 'test-linknets'.
-
 user@host $
 ```
 
