@@ -1,10 +1,10 @@
 # Viewing a pool
 To display all information on a pool:
 ```
-user@host $ nipap pool view servers
+user@host $ nipap pool view link-networks
 -- Pool
   ID                         : 15
-  Name                       : test-linknets
+  Name                       : link-networks
   Description                : Link networks for my test network
   Default type               : assignment
   Implied VRF RT / name      : None / default
