@@ -22,4 +22,3 @@ user@host $ nipap pool view servers
 
 user@host $
 ```
-'None' is used to signify that no value has been set. For a more in-depth explanation of statistics, see XXX
