@@ -14,4 +14,13 @@ user@host $
 
 You are now able to request prefixes from this pool.
 
+If you are unsatisfied with a certain prefix being a member of test-linknets
+you can dismember it again with the following command:
+
+```
+user@host $ nipap pool resize test-linknets remove 192.0.2.0/24
+Prefix 192.0.2.0/24 removed from pool 'test-linknets'.
+
+user@host $
+```
 
