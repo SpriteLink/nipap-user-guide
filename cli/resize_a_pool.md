@@ -13,6 +13,16 @@ user@host $
 
 You are now able to request prefixes from this pool.
 
+With IPv6 this is just the same, lets add some earlier added ipv6 space with
+the pool:
+```
+user@host $ nipap pool resize test-linknets add 2001:db8:14::/48
+Prefix 2001:db8:14::/48 in VRF 'default' [RT: -] added to pool 'test-linknets'.
+
+user@host $
+```
+
+
 You can disassociate a single prefix from a pool with the following command. The prefix will continue to exist.
 ```
 user@host $ nipap pool resize test-linknets remove 192.0.2.0/24
