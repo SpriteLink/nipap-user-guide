@@ -2,11 +2,14 @@
 
 Add a pool with the 'nipap pool add' command followed by the arguments for creating a pool:
 ```
-user@host $ nipap pool add name link-networks \
+user@host $ nipap pool add name test-linknets \
      description "Link networks for my test network" \
      default-type  assignment \
      ipv4_default_prefix_length 30 \
      ipv6_default_prefix_length 112
+Pool 'test-linknets' created.
+
+user@host $
 ```
 
 This allows us to make assignments from this pool automatically.

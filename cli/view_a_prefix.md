@@ -17,10 +17,10 @@ user@host $ nipap address view 192.0.2.0/24
   VLAN                       : None
   Alarm priority             : None
   Monitor                    : False
-  Added                      : 2014-11-10 18:57:43
-  Last modified              : 2014-11-10 18:57:43
+  Added                      : 2015-07-08 16:30:14
+  Last modified              : 2015-07-08 16:30:14
   Expires                    : -
-  Addresses Used / Free      : 0 / 256 (0.00% of 256)
+  Addresses Used / Free      : 12 / 244 (4.69% of 256)
 -- Extra Attributes
 -- Tags
 -- Inherited Tags
